@@ -4,9 +4,6 @@ gi.require_version('WebKit2', '4.0')
 from gi.repository import WebKit2
 from gi.repository import Gtk
 
-def close(window):
-        Gtk.main_quit()
-
 def main():
         Gtk.init()
         
