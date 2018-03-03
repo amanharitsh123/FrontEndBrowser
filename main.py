@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import gi
 gi.require_version('WebKit2', '4.0')
 from gi.repository import WebKit2
